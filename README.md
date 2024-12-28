@@ -183,47 +183,82 @@ DROP COLUMN row_num;
 ```sql
 SELECT MAX(total_laid_off), MAX(percentage_laid_off)
 FROM layoff_staging2;
+```
+![1](https://github.com/user-attachments/assets/25ed8967-5c11-49b2-a30c-39a8df83e8d6)
+This shows that the highest total layoff is 12000 people which is 100% of the employees
 
+```sql
 SELECT *
 FROM layoff_staging2
 WHERE percentage_laid_off = 1
 ORDER BY total_laid_off DESC;
+```
+![2](https://github.com/user-attachments/assets/f5359642-836c-4d9e-a979-eeb00359592f)
+This shows the top 10 companies and industries with 100% layoffs, arranged according to their number of layoffs
 
+```sql
 SELECT company, SUM(total_laid_off) sum_total
 FROM layoff_staging2
 GROUP BY company
 ORDER BY sum_total DESC;
-
+```
+![3](https://github.com/user-attachments/assets/b784b7c8-817e-4535-812d-780d6199d632)
+This shows the top 5 companies with the highest total layoffs
+```sql
 SELECT *
 FROM layoff_staging2
 WHERE percentage_laid_off = 1
 ORDER BY funds_raised_millions DESC;
+```
+![4](https://github.com/user-attachments/assets/09462660-d1ab-4659-967b-3187f6bfcf96)
+This shows the top 10 companies and industries with 100% layoffs, arranged according to the number of millions made
 
+```sql
 SELECT industry, SUM(total_laid_off) sum_total
 FROM layoff_staging2
 GROUP BY industry
 ORDER BY sum_total DESC;
+```
+![5](https://github.com/user-attachments/assets/556f3631-73aa-4fe2-a892-aea14c685fca)
+This shows total layoffs by industries
 
+```sql
 SELECT country, SUM(total_laid_off) sum_total
 FROM layoff_staging2
 GROUP BY country
 ORDER BY 2 DESC;
+```
+![6](https://github.com/user-attachments/assets/ad7f1ad7-ac86-48a6-a116-4bf4d5155db8)
+This shows the total layoffs by countries
 
+```sql
 SELECT YEAR(`date`), SUM(total_laid_off) sum_total
 FROM layoff_staging2
 GROUP BY YEAR(`date`)
 ORDER BY 1 DESC;
+```
+![7](https://github.com/user-attachments/assets/d896aed6-7234-4e91-9c4f-fd73bcfeab29)
+This shows the total layoffs by years
 
+```sql
 SELECT stage, SUM(total_laid_off) sum_total
 FROM layoff_staging2
 GROUP BY stage
 ORDER BY 2 DESC;
+```
+![8](https://github.com/user-attachments/assets/b7a36618-6c8c-4ff7-b53b-e584aaf33b2b)
+This shows the stages of the companies by the total layoffs
 
+```sql
 SELECT company, YEAR(`date`), SUM(total_laid_off) 
 FROM layoff_staging2
 GROUP BY company, YEAR(`date`)
 ORDER BY 3 DESC;
+```
+![10](https://github.com/user-attachments/assets/6a29e60e-ef31-4e8e-b06d-e2223f00b651)
+This shows the companies with the highest total layoffs by years
 
+```sql
 WITH company_year (company, years, total_laid_off) AS
 (
 SELECT company, YEAR(`date`), SUM(total_laid_off) 
@@ -237,3 +272,6 @@ WHERE years IS NOT NULL
 SELECT *
 FROM Company_Year_Rank
 WHERE ranking <= 5;
+```
+![11](https://github.com/user-attachments/assets/f5e0950e-55d5-4a0a-8ee5-fc8ef1fc20a6)
+This shows the ranking of total layoffs of companies by years
