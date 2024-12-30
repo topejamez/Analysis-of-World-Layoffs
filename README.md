@@ -1,5 +1,26 @@
 # Analysis-of-World-Layoffs
 
+
+## Table of Content
+
+- [Project Overview](#project-overview)
+
+- [Data Source](#data-source)
+
+- [Tools](#tools)
+
+- [Data Cleaning/Preparation](#data-cleaningpreparation)
+
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+
+- [Insights/Results](#insightsresults)
+
+- [Key Challenges](#key-challenges)
+  
+- [Conclusion](#conclusion)
+
+- [References](#references)
+
 ### Project Overview
 
 This is an in-depth examination of global job displacement trends across various industries and regions. This analysis typically identifies the primary factors driving layoffs, such as economic downturns, technological advancements, industry-specific challenges, or organizational restructuring. It also evaluates the short-term and long-term impacts of layoffs on. The goal is to uncover patterns, provide actionable recommendations for mitigation, and forecast future trends in the labor market.
@@ -296,8 +317,8 @@ This shows the ranking of total layoffs of companies by years
 The phenomenon of layoffs worldwide reflects the dynamic interplay of economic, technological, and organizational factors. While layoffs are often necessary for businesses to remain agile and competitive, their ripple effects on individuals, communities, and economies are profound. Addressing these challenges requires a balanced approach—one that combines strategic workforce planning with initiatives to support displaced workers through reskilling, upskilling, and alternative employment opportunities. By fostering collaboration between governments, businesses, and educational institutions, we can mitigate the adverse impacts of layoffs and build a more resilient, inclusive global workforce.
 
 ### References
-ChatGPT
-Google
+1. [ChatGPT](https://chat.openai.com)
+2. [Google](https://www.google.com)
 
 
 
