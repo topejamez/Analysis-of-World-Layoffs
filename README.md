@@ -2,15 +2,15 @@
 
 ### Project Overview
 
-This is an in-depth examination of global job displacement trends across various industries and regions. This analysis typically involves identifying the primary factors driving layoffs, such as economic downturns, technological advancements, industry-specific challenges, or organizational restructuring. It also evaluates the short-term and long-term impacts of layoffs on. The goal is to uncover patterns, provide actionable recommendations for mitigation, and forecast future trends in the labor market.
+This is an in-depth examination of global job displacement trends across various industries and regions. This analysis typically identifies the primary factors driving layoffs, such as economic downturns, technological advancements, industry-specific challenges, or organizational restructuring. It also evaluates the short-term and long-term impacts of layoffs on. The goal is to uncover patterns, provide actionable recommendations for mitigation, and forecast future trends in the labor market.
 
 ### Data Source
 
-Layoffs data: The primary dataset used for this analysis is world_layoffs.xlsx, containing detailed information about the layoffs across industries and companies.
+Layoffs data: The primary dataset used for this analysis is world_layoffs.xlsx, which contains detailed information about layoffs across industries and companies between 2020 and 2023.
 
 ### Tools
 
-Excel is the source of the dataset in the XLSX file. Structured Query Language is used to clean the dataset, format, transform, group, and analyze. Libraries used include 
+Excel is the source of the dataset in the XLSX file. Structured Query Language is used to clean the dataset, format, transform, group, and analyze.
 
 ### Data Cleaning/Preparation
 
@@ -275,3 +275,40 @@ WHERE ranking <= 5;
 ```
 ![11](https://github.com/user-attachments/assets/f5e0950e-55d5-4a0a-8ee5-fc8ef1fc20a6)
 This shows the ranking of total layoffs of companies by years
+
+### Insights/Results
+
+1. The top industries with 100% layoffs include Construction, Food, Retail, Transportation, Consumer, and Travel.
+2. The top companies with 100% layoffs and their locations are Katerra—SF Bay Area, Butler Hospitality—New York City, Deliv—SF Bay Area, Jump—New York City, SEND—Sydney, HOOQ—Singapore, Stoqo—Jakarta, Stay Alfred—Spokane, Britishvolt—London, and Planetly—Berlin.
+3. The top 5 companies with the highest total layoff overtime are Amazon, Google, Meta, Salesforce and Microsoft
+4. Britishvolt Company had the highest funds raised, followed by Quibi, Deliveroo Australia, Katerra, BlockFi, Aura Financial and so on
+5. THe top 10 industries with the highest total layoffs are Consumer, Retail, Others, Transportation, Finance, Healthcare, Food, Real Estate, Travel and Hardware
+6. The top 10 countries where the highest layoffs were experienced are the United States, India, Netherlands, Sweden, Brazil, Germany, United Kingdom, Canada, Singapore, and China
+7. The highest total layoffs were recorded in 2023, followed by 2022, 2021, and then 2020
+8. The top 10 companies by their stages with the highest total layoff are Post-IPO, Unknown, Acquired, Series C, Series D, Series B, Series E, Series F, Private Equity, and Series H
+9. Ranking companies according to the highest total layoff in each year shows that Uber, Booking.com, and Groupon were top 3 in 2020; Bytedance, Katerra, and Zillow in 2021; Meta, Amazon, and Cisco in 2022; Google, Microsoft, and Ericsson in 2023.
+
+### Key Challenges
+1. Some industries and countries appear multiple times with alterations in their names
+2. The percentage layoff column was not useful as a lot of values are missing
+
+### Conclusion
+The phenomenon of layoffs worldwide reflects the dynamic interplay of economic, technological, and organizational factors. While layoffs are often necessary for businesses to remain agile and competitive, their ripple effects on individuals, communities, and economies are profound. Addressing these challenges requires a balanced approach—one that combines strategic workforce planning with initiatives to support displaced workers through reskilling, upskilling, and alternative employment opportunities. By fostering collaboration between governments, businesses, and educational institutions, we can mitigate the adverse impacts of layoffs and build a more resilient, inclusive global workforce.
+
+### References
+ChatGPT
+Google
+
+
+
+
+
+
+
+
+
+
+
+
+
+
