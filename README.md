@@ -23,7 +23,7 @@
 
 ### Project Overview
 
-This is an in-depth examination of global job displacement trends across various industries and regions. This analysis typically identifies the primary factors driving layoffs, such as economic downturns, technological advancements, industry-specific challenges, or organizational restructuring. It also evaluates the short-term and long-term impacts of layoffs on. The goal is to uncover patterns, provide actionable recommendations for mitigation, and forecast future trends in the labor market.
+This is an in-depth examination of global job displacement trends across various industries and regions. This analysis typically identifies the primary factors driving layoffs, such as economic downturns, technological advancements, industry-specific challenges, or organizational restructuring. It also evaluates the short-term and long-term impacts of layoffs on employees, businesses, and the economy. The goal is to uncover patterns, provide actionable recommendations for mitigation, and forecast future trends in the labor market.
 
 ### Data Source
 
